@@ -1,0 +1,252 @@
+# en | kanji (optional) | yomikata | subcategory | note (optional)
+## System design
+load balancing|負荷分散|ふかぶんさん|System design
+load balancer||ロードバランサー|System design
+caching||キャッシュ|System design
+cache hit||キャッシュヒット|System design
+cache invalidation|キャッシュ無効化|キャッシュむこうか|System design
+scalability||スケーラビリティ|System design
+horizontal scaling|水平スケーリング|すいへいスケーリング|System design
+vertical scaling|垂直スケーリング|すいちょくスケーリング|System design
+latency||レイテンシ|System design|also 遅延 (ちえん)
+throughput||スループット|System design
+bandwidth|帯域幅|たいいきはば|System design
+availability|可用性|かようせい|System design
+reliability|信頼性|しんらいせい|System design
+consistency|一貫性|いっかんせい|System design
+eventual consistency|結果整合性|けっかせいごうせい|System design
+fault tolerance|耐障害性|たいしょうがいせい|System design
+redundancy|冗長性|じょうちょうせい|System design
+failover||フェイルオーバー|System design
+high availability|高可用性|こうかようせい|System design
+sharding||シャーディング|System design
+partitioning|分割|ぶんかつ|System design
+replication||レプリケーション|System design
+leader election|リーダー選出|リーダーせんしゅつ|System design
+consensus|合意形成|ごういけいせい|System design
+CAP theorem||キャップていり|System design|定理 = ていり
+microservices||マイクロサービス|System design
+monolith|モノリス|モノリス|System design
+API gateway||エーピーアイゲートウェイ|System design
+reverse proxy||リバースプロキシ|System design
+proxy||プロキシ|System design
+CDN||シーディーエヌ|System design|content delivery network = コンテンツ配信ネットワーク
+message queue||メッセージキュー|System design
+event-driven|イベント駆動|イベントくどう|System design
+pub/sub||パブサブ|System design
+rate limiting|レート制限|レートせいげん|System design
+throttling||スロットリング|System design
+idempotency|冪等性|べきとうせい|System design
+service discovery||サービスディスカバリ|System design
+circuit breaker||サーキットブレーカー|System design
+bottleneck||ボトルネック|System design
+single point of failure|単一障害点|たんいつしょうがいてん|System design
+disaster recovery|災害復旧|さいがいふっきゅう|System design
+backup||バックアップ|System design
+monitoring|監視|かんし|System design
+logging||ロギング|System design
+observability|可観測性|かかんそくせい|System design
+trade-off||トレードオフ|System design
+design pattern||デザインパターン|System design
+architecture|設計構造|せっけいこうぞう|System design|also アーキテクチャ
+## Machine learning / AI
+artificial intelligence|人工知能|じんこうちのう|ML / AI|abbr. AI = エーアイ
+machine learning|機械学習|きかいがくしゅう|ML / AI
+deep learning|深層学習|しんそうがくしゅう|ML / AI|also ディープラーニング
+neural network||ニューラルネットワーク|ML / AI
+supervised learning|教師あり学習|きょうしありがくしゅう|ML / AI
+unsupervised learning|教師なし学習|きょうしなしがくしゅう|ML / AI
+reinforcement learning|強化学習|きょうかがくしゅう|ML / AI
+model|モデル|モデル|ML / AI
+training|訓練|くんれん|ML / AI|also 学習 (がくしゅう)
+inference|推論|すいろん|ML / AI
+fine-tuning|微調整|びちょうせい|ML / AI|also ファインチューニング
+pre-training|事前学習|じぜんがくしゅう|ML / AI
+transfer learning|転移学習|てんいがくしゅう|ML / AI
+hyperparameter||ハイパーパラメータ|ML / AI
+parameter|パラメータ|パラメータ|ML / AI
+weight|重み|おもみ|ML / AI
+bias|バイアス|バイアス|ML / AI
+overfitting|過学習|かがくしゅう|ML / AI|also オーバーフィッティング
+underfitting|未学習|みがくしゅう|ML / AI|also アンダーフィッティング
+generalization|汎化|はんか|ML / AI
+loss function|損失関数|そんしつかんすう|ML / AI
+gradient|勾配|こうばい|ML / AI
+gradient descent|勾配降下法|こうばいこうかほう|ML / AI
+backpropagation|誤差逆伝播法|ごさぎゃくでんぱほう|ML / AI
+learning rate|学習率|がくしゅうりつ|ML / AI
+epoch||エポック|ML / AI
+batch size|バッチサイズ|バッチサイズ|ML / AI
+activation function|活性化関数|かっせいかかんすう|ML / AI
+dataset||データセット|ML / AI
+training data|学習データ|がくしゅうデータ|ML / AI
+test data|テストデータ|テストデータ|ML / AI
+validation|検証|けんしょう|ML / AI
+feature|特徴量|とくちょうりょう|ML / AI
+label|ラベル|ラベル|ML / AI
+classification|分類|ぶんるい|ML / AI
+regression|回帰|かいき|ML / AI
+clustering||クラスタリング|ML / AI
+dimensionality reduction|次元削減|じげんさくげん|ML / AI
+accuracy|精度|せいど|ML / AI
+precision|適合率|てきごうりつ|ML / AI
+recall|再現率|さいげんりつ|ML / AI
+data augmentation|データ拡張|データかくちょう|ML / AI
+regularization|正則化|せいそくか|ML / AI
+dropout||ドロップアウト|ML / AI
+optimizer||オプティマイザー|ML / AI
+computer vision|コンピュータビジョン|コンピュータビジョン|ML / AI
+convolutional neural network|畳み込みニューラルネットワーク|たたみこみニューラルネットワーク|ML / AI|abbr. CNN
+recurrent neural network|再帰型ニューラルネットワーク|さいきがたニューラルネットワーク|ML / AI|abbr. RNN
+reinforcement learning from human feedback|人間のフィードバックによる強化学習|にんげんのフィードバックによるきょうかがくしゅう|ML / AI|abbr. RLHF
+## LLM / NLP
+natural language processing|自然言語処理|しぜんげんごしょり|LLM / NLP|abbr. NLP = エヌエルピー
+large language model|大規模言語モデル|だいきぼげんごモデル|LLM / NLP|abbr. LLM = エルエルエム
+generative AI|生成AI|せいせいエーアイ|LLM / NLP
+transformer||トランスフォーマー|LLM / NLP
+attention mechanism|注意機構|ちゅういきこう|LLM / NLP
+self-attention|自己注意|じこちゅうい|LLM / NLP
+token||トークン|LLM / NLP
+tokenization|トークン化|トークンか|LLM / NLP
+tokenizer||トークナイザー|LLM / NLP
+embedding|埋め込み|うめこみ|LLM / NLP
+vector||ベクトル|LLM / NLP
+vector database|ベクトルデータベース|ベクトルデータベース|LLM / NLP
+prompt||プロンプト|LLM / NLP
+prompt engineering|プロンプトエンジニアリング|プロンプトエンジニアリング|LLM / NLP
+context window|コンテキストウィンドウ|コンテキストウィンドウ|LLM / NLP
+temperature|温度|おんど|LLM / NLP|sampling parameter
+hallucination|幻覚|げんかく|LLM / NLP|also ハルシネーション
+retrieval-augmented generation|検索拡張生成|けんさくかくちょうせいせい|LLM / NLP|abbr. RAG = ラグ
+agent||エージェント|LLM / NLP
+chatbot||チャットボット|LLM / NLP
+in-context learning|文脈内学習|ぶんみゃくないがくしゅう|LLM / NLP
+few-shot learning|少数ショット学習|しょうすうショットがくしゅう|LLM / NLP
+zero-shot learning|ゼロショット学習|ゼロショットがくしゅう|LLM / NLP
+instruction tuning|指示チューニング|しじチューニング|LLM / NLP
+quantization|量子化|りょうしか|LLM / NLP
+distillation|蒸留|じょうりゅう|LLM / NLP
+multimodal||マルチモーダル|LLM / NLP
+machine translation|機械翻訳|きかいほんやく|LLM / NLP
+sentiment analysis|感情分析|かんじょうぶんせき|LLM / NLP
+speech recognition|音声認識|おんせいにんしき|LLM / NLP
+text generation|文章生成|ぶんしょうせいせい|LLM / NLP
+benchmark||ベンチマーク|LLM / NLP
+## Core programming concepts
+algorithm||アルゴリズム|Core concepts
+data structure|データ構造|データこうぞう|Core concepts
+array|配列|はいれつ|Core concepts
+list||リスト|Core concepts
+stack||スタック|Core concepts
+queue||キュー|Core concepts
+hash table|ハッシュテーブル|ハッシュテーブル|Core concepts
+tree structure|木構造|きこうぞう|Core concepts
+graph||グラフ|Core concepts
+variable|変数|へんすう|Core concepts
+constant|定数|ていすう|Core concepts
+function|関数|かんすう|Core concepts
+method||メソッド|Core concepts
+class||クラス|Core concepts
+object|オブジェクト|オブジェクト|Core concepts
+instance||インスタンス|Core concepts
+inheritance|継承|けいしょう|Core concepts
+interface||インターフェース|Core concepts
+recursion|再帰|さいき|Core concepts
+loop|ループ|ループ|Core concepts
+condition|条件|じょうけん|Core concepts
+string|文字列|もじれつ|Core concepts
+integer|整数|せいすう|Core concepts
+boolean|真偽値|しんぎち|Core concepts
+type|型|かた|Core concepts
+compiler||コンパイラ|Core concepts
+interpreter||インタプリタ|Core concepts
+synchronous|同期|どうき|Core concepts
+asynchronous|非同期|ひどうき|Core concepts
+thread||スレッド|Core concepts
+process|プロセス|プロセス|Core concepts
+concurrency|並行性|へいこうせい|Core concepts
+parallelism|並列処理|へいれつしょり|Core concepts
+memory|メモリ|メモリ|Core concepts
+pointer||ポインタ|Core concepts
+garbage collection||ガベージコレクション|Core concepts
+exception|例外|れいがい|Core concepts
+callback||コールバック|Core concepts
+database||データベース|Core concepts
+query||クエリ|Core concepts
+index||インデックス|Core concepts
+transaction||トランザクション|Core concepts
+schema||スキーマ|Core concepts
+## Naming conventions & tech names
+camelCase||キャメルケース|Naming & tech names
+PascalCase||パスカルケース|Naming & tech names
+snake_case||スネークケース|Naming & tech names
+kebab-case||ケバブケース|Naming & tech names
+Next.js||ネクストジェーエス|Naming & tech names|ジェーエス = JS
+React||リアクト|Naming & tech names
+Vue.js||ビュージェーエス|Naming & tech names
+Node.js||ノードジェーエス|Naming & tech names
+JavaScript||ジャバスクリプト|Naming & tech names
+TypeScript||タイプスクリプト|Naming & tech names
+Python||パイソン|Naming & tech names
+Java||ジャバ|Naming & tech names
+Rust||ラスト|Naming & tech names
+Go||ゴー|Naming & tech names
+Swift||スウィフト|Naming & tech names
+Kotlin||コトリン|Naming & tech names
+HTML||エイチティーエムエル|Naming & tech names
+CSS||シーエスエス|Naming & tech names
+SQL||エスキューエル|Naming & tech names|also シークエル
+JSON||ジェイソン|Naming & tech names
+YAML||ヤムル|Naming & tech names
+Docker||ドッカー|Naming & tech names
+Kubernetes||クーバネティス|Naming & tech names|also クバネティス
+Git||ギット|Naming & tech names
+GitHub||ギットハブ|Naming & tech names
+Linux||リナックス|Naming & tech names
+Redis||レディス|Naming & tech names
+PostgreSQL||ポストグレスキューエル|Naming & tech names
+MongoDB||モンゴディービー|Naming & tech names
+AWS||エーダブリューエス|Naming & tech names
+API||エーピーアイ|Naming & tech names
+REST||レスト|Naming & tech names
+GraphQL||グラフキューエル|Naming & tech names
+npm||エヌピーエム|Naming & tech names
+framework||フレームワーク|Naming & tech names
+library||ライブラリ|Naming & tech names
+open source|オープンソース|オープンソース|Naming & tech names
+## Dev / infra / security
+deploy||デプロイ|Dev / infra / security
+CI/CD||シーアイシーディー|Dev / infra / security
+container||コンテナ|Dev / infra / security
+cloud||クラウド|Dev / infra / security
+server||サーバー|Dev / infra / security
+client||クライアント|Dev / infra / security
+frontend||フロントエンド|Dev / infra / security
+backend||バックエンド|Dev / infra / security
+full stack||フルスタック|Dev / infra / security
+network|ネットワーク|ネットワーク|Dev / infra / security
+protocol||プロトコル|Dev / infra / security
+encryption|暗号化|あんごうか|Dev / infra / security
+decryption|復号|ふくごう|Dev / infra / security
+authentication|認証|にんしょう|Dev / infra / security
+authorization|認可|にんか|Dev / infra / security
+password|パスワード|パスワード|Dev / infra / security
+vulnerability|脆弱性|ぜいじゃくせい|Dev / infra / security
+firewall||ファイアウォール|Dev / infra / security
+token (auth)||トークン|Dev / infra / security
+commit||コミット|Dev / infra / security
+branch||ブランチ|Dev / infra / security
+merge||マージ|Dev / infra / security
+pull request||プルリクエスト|Dev / infra / security
+code review|コードレビュー|コードレビュー|Dev / infra / security
+bug||バグ|Dev / infra / security
+debug||デバッグ|Dev / infra / security
+refactoring||リファクタリング|Dev / infra / security
+unit test|単体テスト|たんたいテスト|Dev / infra / security
+requirements|要件|ようけん|Dev / infra / security
+specification|仕様|しよう|Dev / infra / security
+release|リリース|リリース|Dev / infra / security
+version|バージョン|バージョン|Dev / infra / security
+dependency|依存関係|いぞんかんけい|Dev / infra / security
+performance|性能|せいのう|Dev / infra / security
+optimization|最適化|さいてきか|Dev / infra / security

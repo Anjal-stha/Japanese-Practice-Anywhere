@@ -1,0 +1,1600 @@
+[
+ {
+  "id": "t-load-balancing",
+  "kanji": "負荷分散",
+  "kana": "ふかぶんさん",
+  "en": "load balancing",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-load-balancer",
+  "kana": "ロードバランサー",
+  "en": "load balancer",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-caching",
+  "kana": "キャッシュ",
+  "en": "caching",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-cache-hit",
+  "kana": "キャッシュヒット",
+  "en": "cache hit",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-cache-invalidation",
+  "kanji": "キャッシュ無効化",
+  "kana": "キャッシュむこうか",
+  "en": "cache invalidation",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-scalability",
+  "kana": "スケーラビリティ",
+  "en": "scalability",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-horizontal-scaling",
+  "kanji": "水平スケーリング",
+  "kana": "すいへいスケーリング",
+  "en": "horizontal scaling",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-vertical-scaling",
+  "kanji": "垂直スケーリング",
+  "kana": "すいちょくスケーリング",
+  "en": "vertical scaling",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-latency",
+  "kana": "レイテンシ",
+  "en": "latency",
+  "subcategory": "System design",
+  "note": "also 遅延 (ちえん)"
+ },
+ {
+  "id": "t-throughput",
+  "kana": "スループット",
+  "en": "throughput",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-bandwidth",
+  "kanji": "帯域幅",
+  "kana": "たいいきはば",
+  "en": "bandwidth",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-availability",
+  "kanji": "可用性",
+  "kana": "かようせい",
+  "en": "availability",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-reliability",
+  "kanji": "信頼性",
+  "kana": "しんらいせい",
+  "en": "reliability",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-consistency",
+  "kanji": "一貫性",
+  "kana": "いっかんせい",
+  "en": "consistency",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-eventual-consistency",
+  "kanji": "結果整合性",
+  "kana": "けっかせいごうせい",
+  "en": "eventual consistency",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-fault-tolerance",
+  "kanji": "耐障害性",
+  "kana": "たいしょうがいせい",
+  "en": "fault tolerance",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-redundancy",
+  "kanji": "冗長性",
+  "kana": "じょうちょうせい",
+  "en": "redundancy",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-failover",
+  "kana": "フェイルオーバー",
+  "en": "failover",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-high-availability",
+  "kanji": "高可用性",
+  "kana": "こうかようせい",
+  "en": "high availability",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-sharding",
+  "kana": "シャーディング",
+  "en": "sharding",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-partitioning",
+  "kanji": "分割",
+  "kana": "ぶんかつ",
+  "en": "partitioning",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-replication",
+  "kana": "レプリケーション",
+  "en": "replication",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-leader-election",
+  "kanji": "リーダー選出",
+  "kana": "リーダーせんしゅつ",
+  "en": "leader election",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-consensus",
+  "kanji": "合意形成",
+  "kana": "ごういけいせい",
+  "en": "consensus",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-cap-theorem",
+  "kana": "キャップていり",
+  "en": "CAP theorem",
+  "subcategory": "System design",
+  "note": "定理 = ていり"
+ },
+ {
+  "id": "t-microservices",
+  "kana": "マイクロサービス",
+  "en": "microservices",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-monolith",
+  "kana": "モノリス",
+  "en": "monolith",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-api-gateway",
+  "kana": "エーピーアイゲートウェイ",
+  "en": "API gateway",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-reverse-proxy",
+  "kana": "リバースプロキシ",
+  "en": "reverse proxy",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-proxy",
+  "kana": "プロキシ",
+  "en": "proxy",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-cdn",
+  "kana": "シーディーエヌ",
+  "en": "CDN",
+  "subcategory": "System design",
+  "note": "content delivery network = コンテンツ配信ネットワーク"
+ },
+ {
+  "id": "t-message-queue",
+  "kana": "メッセージキュー",
+  "en": "message queue",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-event-driven",
+  "kanji": "イベント駆動",
+  "kana": "イベントくどう",
+  "en": "event-driven",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-pub-sub",
+  "kana": "パブサブ",
+  "en": "pub/sub",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-rate-limiting",
+  "kanji": "レート制限",
+  "kana": "レートせいげん",
+  "en": "rate limiting",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-throttling",
+  "kana": "スロットリング",
+  "en": "throttling",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-idempotency",
+  "kanji": "冪等性",
+  "kana": "べきとうせい",
+  "en": "idempotency",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-service-discovery",
+  "kana": "サービスディスカバリ",
+  "en": "service discovery",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-circuit-breaker",
+  "kana": "サーキットブレーカー",
+  "en": "circuit breaker",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-bottleneck",
+  "kana": "ボトルネック",
+  "en": "bottleneck",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-single-point-of-failure",
+  "kanji": "単一障害点",
+  "kana": "たんいつしょうがいてん",
+  "en": "single point of failure",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-disaster-recovery",
+  "kanji": "災害復旧",
+  "kana": "さいがいふっきゅう",
+  "en": "disaster recovery",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-backup",
+  "kana": "バックアップ",
+  "en": "backup",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-monitoring",
+  "kanji": "監視",
+  "kana": "かんし",
+  "en": "monitoring",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-logging",
+  "kana": "ロギング",
+  "en": "logging",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-observability",
+  "kanji": "可観測性",
+  "kana": "かかんそくせい",
+  "en": "observability",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-trade-off",
+  "kana": "トレードオフ",
+  "en": "trade-off",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-design-pattern",
+  "kana": "デザインパターン",
+  "en": "design pattern",
+  "subcategory": "System design"
+ },
+ {
+  "id": "t-architecture",
+  "kanji": "設計構造",
+  "kana": "せっけいこうぞう",
+  "en": "architecture",
+  "subcategory": "System design",
+  "note": "also アーキテクチャ"
+ },
+ {
+  "id": "t-artificial-intelligence",
+  "kanji": "人工知能",
+  "kana": "じんこうちのう",
+  "en": "artificial intelligence",
+  "subcategory": "ML / AI",
+  "note": "abbr. AI = エーアイ"
+ },
+ {
+  "id": "t-machine-learning",
+  "kanji": "機械学習",
+  "kana": "きかいがくしゅう",
+  "en": "machine learning",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-deep-learning",
+  "kanji": "深層学習",
+  "kana": "しんそうがくしゅう",
+  "en": "deep learning",
+  "subcategory": "ML / AI",
+  "note": "also ディープラーニング"
+ },
+ {
+  "id": "t-neural-network",
+  "kana": "ニューラルネットワーク",
+  "en": "neural network",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-supervised-learning",
+  "kanji": "教師あり学習",
+  "kana": "きょうしありがくしゅう",
+  "en": "supervised learning",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-unsupervised-learning",
+  "kanji": "教師なし学習",
+  "kana": "きょうしなしがくしゅう",
+  "en": "unsupervised learning",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-reinforcement-learning",
+  "kanji": "強化学習",
+  "kana": "きょうかがくしゅう",
+  "en": "reinforcement learning",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-model",
+  "kana": "モデル",
+  "en": "model",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-training",
+  "kanji": "訓練",
+  "kana": "くんれん",
+  "en": "training",
+  "subcategory": "ML / AI",
+  "note": "also 学習 (がくしゅう)"
+ },
+ {
+  "id": "t-inference",
+  "kanji": "推論",
+  "kana": "すいろん",
+  "en": "inference",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-fine-tuning",
+  "kanji": "微調整",
+  "kana": "びちょうせい",
+  "en": "fine-tuning",
+  "subcategory": "ML / AI",
+  "note": "also ファインチューニング"
+ },
+ {
+  "id": "t-pre-training",
+  "kanji": "事前学習",
+  "kana": "じぜんがくしゅう",
+  "en": "pre-training",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-transfer-learning",
+  "kanji": "転移学習",
+  "kana": "てんいがくしゅう",
+  "en": "transfer learning",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-hyperparameter",
+  "kana": "ハイパーパラメータ",
+  "en": "hyperparameter",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-parameter",
+  "kana": "パラメータ",
+  "en": "parameter",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-weight",
+  "kanji": "重み",
+  "kana": "おもみ",
+  "en": "weight",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-bias",
+  "kana": "バイアス",
+  "en": "bias",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-overfitting",
+  "kanji": "過学習",
+  "kana": "かがくしゅう",
+  "en": "overfitting",
+  "subcategory": "ML / AI",
+  "note": "also オーバーフィッティング"
+ },
+ {
+  "id": "t-underfitting",
+  "kanji": "未学習",
+  "kana": "みがくしゅう",
+  "en": "underfitting",
+  "subcategory": "ML / AI",
+  "note": "also アンダーフィッティング"
+ },
+ {
+  "id": "t-generalization",
+  "kanji": "汎化",
+  "kana": "はんか",
+  "en": "generalization",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-loss-function",
+  "kanji": "損失関数",
+  "kana": "そんしつかんすう",
+  "en": "loss function",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-gradient",
+  "kanji": "勾配",
+  "kana": "こうばい",
+  "en": "gradient",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-gradient-descent",
+  "kanji": "勾配降下法",
+  "kana": "こうばいこうかほう",
+  "en": "gradient descent",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-backpropagation",
+  "kanji": "誤差逆伝播法",
+  "kana": "ごさぎゃくでんぱほう",
+  "en": "backpropagation",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-learning-rate",
+  "kanji": "学習率",
+  "kana": "がくしゅうりつ",
+  "en": "learning rate",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-epoch",
+  "kana": "エポック",
+  "en": "epoch",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-batch-size",
+  "kana": "バッチサイズ",
+  "en": "batch size",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-activation-function",
+  "kanji": "活性化関数",
+  "kana": "かっせいかかんすう",
+  "en": "activation function",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-dataset",
+  "kana": "データセット",
+  "en": "dataset",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-training-data",
+  "kanji": "学習データ",
+  "kana": "がくしゅうデータ",
+  "en": "training data",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-test-data",
+  "kana": "テストデータ",
+  "en": "test data",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-validation",
+  "kanji": "検証",
+  "kana": "けんしょう",
+  "en": "validation",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-feature",
+  "kanji": "特徴量",
+  "kana": "とくちょうりょう",
+  "en": "feature",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-label",
+  "kana": "ラベル",
+  "en": "label",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-classification",
+  "kanji": "分類",
+  "kana": "ぶんるい",
+  "en": "classification",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-regression",
+  "kanji": "回帰",
+  "kana": "かいき",
+  "en": "regression",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-clustering",
+  "kana": "クラスタリング",
+  "en": "clustering",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-dimensionality-reduction",
+  "kanji": "次元削減",
+  "kana": "じげんさくげん",
+  "en": "dimensionality reduction",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-accuracy",
+  "kanji": "精度",
+  "kana": "せいど",
+  "en": "accuracy",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-precision",
+  "kanji": "適合率",
+  "kana": "てきごうりつ",
+  "en": "precision",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-recall",
+  "kanji": "再現率",
+  "kana": "さいげんりつ",
+  "en": "recall",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-data-augmentation",
+  "kanji": "データ拡張",
+  "kana": "データかくちょう",
+  "en": "data augmentation",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-regularization",
+  "kanji": "正則化",
+  "kana": "せいそくか",
+  "en": "regularization",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-dropout",
+  "kana": "ドロップアウト",
+  "en": "dropout",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-optimizer",
+  "kana": "オプティマイザー",
+  "en": "optimizer",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-computer-vision",
+  "kana": "コンピュータビジョン",
+  "en": "computer vision",
+  "subcategory": "ML / AI"
+ },
+ {
+  "id": "t-convolutional-neural-network",
+  "kanji": "畳み込みニューラルネットワーク",
+  "kana": "たたみこみニューラルネットワーク",
+  "en": "convolutional neural network",
+  "subcategory": "ML / AI",
+  "note": "abbr. CNN"
+ },
+ {
+  "id": "t-recurrent-neural-network",
+  "kanji": "再帰型ニューラルネットワーク",
+  "kana": "さいきがたニューラルネットワーク",
+  "en": "recurrent neural network",
+  "subcategory": "ML / AI",
+  "note": "abbr. RNN"
+ },
+ {
+  "id": "t-reinforcement-learning-from-human-feedback",
+  "kanji": "人間のフィードバックによる強化学習",
+  "kana": "にんげんのフィードバックによるきょうかがくしゅう",
+  "en": "reinforcement learning from human feedback",
+  "subcategory": "ML / AI",
+  "note": "abbr. RLHF"
+ },
+ {
+  "id": "t-natural-language-processing",
+  "kanji": "自然言語処理",
+  "kana": "しぜんげんごしょり",
+  "en": "natural language processing",
+  "subcategory": "LLM / NLP",
+  "note": "abbr. NLP = エヌエルピー"
+ },
+ {
+  "id": "t-large-language-model",
+  "kanji": "大規模言語モデル",
+  "kana": "だいきぼげんごモデル",
+  "en": "large language model",
+  "subcategory": "LLM / NLP",
+  "note": "abbr. LLM = エルエルエム"
+ },
+ {
+  "id": "t-generative-ai",
+  "kanji": "生成AI",
+  "kana": "せいせいエーアイ",
+  "en": "generative AI",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-transformer",
+  "kana": "トランスフォーマー",
+  "en": "transformer",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-attention-mechanism",
+  "kanji": "注意機構",
+  "kana": "ちゅういきこう",
+  "en": "attention mechanism",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-self-attention",
+  "kanji": "自己注意",
+  "kana": "じこちゅうい",
+  "en": "self-attention",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-token",
+  "kana": "トークン",
+  "en": "token",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-tokenization",
+  "kanji": "トークン化",
+  "kana": "トークンか",
+  "en": "tokenization",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-tokenizer",
+  "kana": "トークナイザー",
+  "en": "tokenizer",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-embedding",
+  "kanji": "埋め込み",
+  "kana": "うめこみ",
+  "en": "embedding",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-vector",
+  "kana": "ベクトル",
+  "en": "vector",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-vector-database",
+  "kana": "ベクトルデータベース",
+  "en": "vector database",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-prompt",
+  "kana": "プロンプト",
+  "en": "prompt",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-prompt-engineering",
+  "kana": "プロンプトエンジニアリング",
+  "en": "prompt engineering",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-context-window",
+  "kana": "コンテキストウィンドウ",
+  "en": "context window",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-temperature",
+  "kanji": "温度",
+  "kana": "おんど",
+  "en": "temperature",
+  "subcategory": "LLM / NLP",
+  "note": "sampling parameter"
+ },
+ {
+  "id": "t-hallucination",
+  "kanji": "幻覚",
+  "kana": "げんかく",
+  "en": "hallucination",
+  "subcategory": "LLM / NLP",
+  "note": "also ハルシネーション"
+ },
+ {
+  "id": "t-retrieval-augmented-generation",
+  "kanji": "検索拡張生成",
+  "kana": "けんさくかくちょうせいせい",
+  "en": "retrieval-augmented generation",
+  "subcategory": "LLM / NLP",
+  "note": "abbr. RAG = ラグ"
+ },
+ {
+  "id": "t-agent",
+  "kana": "エージェント",
+  "en": "agent",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-chatbot",
+  "kana": "チャットボット",
+  "en": "chatbot",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-in-context-learning",
+  "kanji": "文脈内学習",
+  "kana": "ぶんみゃくないがくしゅう",
+  "en": "in-context learning",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-few-shot-learning",
+  "kanji": "少数ショット学習",
+  "kana": "しょうすうショットがくしゅう",
+  "en": "few-shot learning",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-zero-shot-learning",
+  "kanji": "ゼロショット学習",
+  "kana": "ゼロショットがくしゅう",
+  "en": "zero-shot learning",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-instruction-tuning",
+  "kanji": "指示チューニング",
+  "kana": "しじチューニング",
+  "en": "instruction tuning",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-quantization",
+  "kanji": "量子化",
+  "kana": "りょうしか",
+  "en": "quantization",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-distillation",
+  "kanji": "蒸留",
+  "kana": "じょうりゅう",
+  "en": "distillation",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-multimodal",
+  "kana": "マルチモーダル",
+  "en": "multimodal",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-machine-translation",
+  "kanji": "機械翻訳",
+  "kana": "きかいほんやく",
+  "en": "machine translation",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-sentiment-analysis",
+  "kanji": "感情分析",
+  "kana": "かんじょうぶんせき",
+  "en": "sentiment analysis",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-speech-recognition",
+  "kanji": "音声認識",
+  "kana": "おんせいにんしき",
+  "en": "speech recognition",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-text-generation",
+  "kanji": "文章生成",
+  "kana": "ぶんしょうせいせい",
+  "en": "text generation",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-benchmark",
+  "kana": "ベンチマーク",
+  "en": "benchmark",
+  "subcategory": "LLM / NLP"
+ },
+ {
+  "id": "t-algorithm",
+  "kana": "アルゴリズム",
+  "en": "algorithm",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-data-structure",
+  "kanji": "データ構造",
+  "kana": "データこうぞう",
+  "en": "data structure",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-array",
+  "kanji": "配列",
+  "kana": "はいれつ",
+  "en": "array",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-list",
+  "kana": "リスト",
+  "en": "list",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-stack",
+  "kana": "スタック",
+  "en": "stack",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-queue",
+  "kana": "キュー",
+  "en": "queue",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-hash-table",
+  "kana": "ハッシュテーブル",
+  "en": "hash table",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-tree-structure",
+  "kanji": "木構造",
+  "kana": "きこうぞう",
+  "en": "tree structure",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-graph",
+  "kana": "グラフ",
+  "en": "graph",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-variable",
+  "kanji": "変数",
+  "kana": "へんすう",
+  "en": "variable",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-constant",
+  "kanji": "定数",
+  "kana": "ていすう",
+  "en": "constant",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-function",
+  "kanji": "関数",
+  "kana": "かんすう",
+  "en": "function",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-method",
+  "kana": "メソッド",
+  "en": "method",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-class",
+  "kana": "クラス",
+  "en": "class",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-object",
+  "kana": "オブジェクト",
+  "en": "object",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-instance",
+  "kana": "インスタンス",
+  "en": "instance",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-inheritance",
+  "kanji": "継承",
+  "kana": "けいしょう",
+  "en": "inheritance",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-interface",
+  "kana": "インターフェース",
+  "en": "interface",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-recursion",
+  "kanji": "再帰",
+  "kana": "さいき",
+  "en": "recursion",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-loop",
+  "kana": "ループ",
+  "en": "loop",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-condition",
+  "kanji": "条件",
+  "kana": "じょうけん",
+  "en": "condition",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-string",
+  "kanji": "文字列",
+  "kana": "もじれつ",
+  "en": "string",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-integer",
+  "kanji": "整数",
+  "kana": "せいすう",
+  "en": "integer",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-boolean",
+  "kanji": "真偽値",
+  "kana": "しんぎち",
+  "en": "boolean",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-type",
+  "kanji": "型",
+  "kana": "かた",
+  "en": "type",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-compiler",
+  "kana": "コンパイラ",
+  "en": "compiler",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-interpreter",
+  "kana": "インタプリタ",
+  "en": "interpreter",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-synchronous",
+  "kanji": "同期",
+  "kana": "どうき",
+  "en": "synchronous",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-asynchronous",
+  "kanji": "非同期",
+  "kana": "ひどうき",
+  "en": "asynchronous",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-thread",
+  "kana": "スレッド",
+  "en": "thread",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-process",
+  "kana": "プロセス",
+  "en": "process",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-concurrency",
+  "kanji": "並行性",
+  "kana": "へいこうせい",
+  "en": "concurrency",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-parallelism",
+  "kanji": "並列処理",
+  "kana": "へいれつしょり",
+  "en": "parallelism",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-memory",
+  "kana": "メモリ",
+  "en": "memory",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-pointer",
+  "kana": "ポインタ",
+  "en": "pointer",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-garbage-collection",
+  "kana": "ガベージコレクション",
+  "en": "garbage collection",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-exception",
+  "kanji": "例外",
+  "kana": "れいがい",
+  "en": "exception",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-callback",
+  "kana": "コールバック",
+  "en": "callback",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-database",
+  "kana": "データベース",
+  "en": "database",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-query",
+  "kana": "クエリ",
+  "en": "query",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-index",
+  "kana": "インデックス",
+  "en": "index",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-transaction",
+  "kana": "トランザクション",
+  "en": "transaction",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-schema",
+  "kana": "スキーマ",
+  "en": "schema",
+  "subcategory": "Core concepts"
+ },
+ {
+  "id": "t-camelcase",
+  "kana": "キャメルケース",
+  "en": "camelCase",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-pascalcase",
+  "kana": "パスカルケース",
+  "en": "PascalCase",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-snake-case",
+  "kana": "スネークケース",
+  "en": "snake_case",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-kebab-case",
+  "kana": "ケバブケース",
+  "en": "kebab-case",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-next-js",
+  "kana": "ネクストジェーエス",
+  "en": "Next.js",
+  "subcategory": "Naming & tech names",
+  "note": "ジェーエス = JS"
+ },
+ {
+  "id": "t-react",
+  "kana": "リアクト",
+  "en": "React",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-vue-js",
+  "kana": "ビュージェーエス",
+  "en": "Vue.js",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-node-js",
+  "kana": "ノードジェーエス",
+  "en": "Node.js",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-javascript",
+  "kana": "ジャバスクリプト",
+  "en": "JavaScript",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-typescript",
+  "kana": "タイプスクリプト",
+  "en": "TypeScript",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-python",
+  "kana": "パイソン",
+  "en": "Python",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-java",
+  "kana": "ジャバ",
+  "en": "Java",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-rust",
+  "kana": "ラスト",
+  "en": "Rust",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-go",
+  "kana": "ゴー",
+  "en": "Go",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-swift",
+  "kana": "スウィフト",
+  "en": "Swift",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-kotlin",
+  "kana": "コトリン",
+  "en": "Kotlin",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-html",
+  "kana": "エイチティーエムエル",
+  "en": "HTML",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-css",
+  "kana": "シーエスエス",
+  "en": "CSS",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-sql",
+  "kana": "エスキューエル",
+  "en": "SQL",
+  "subcategory": "Naming & tech names",
+  "note": "also シークエル"
+ },
+ {
+  "id": "t-json",
+  "kana": "ジェイソン",
+  "en": "JSON",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-yaml",
+  "kana": "ヤムル",
+  "en": "YAML",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-docker",
+  "kana": "ドッカー",
+  "en": "Docker",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-kubernetes",
+  "kana": "クーバネティス",
+  "en": "Kubernetes",
+  "subcategory": "Naming & tech names",
+  "note": "also クバネティス"
+ },
+ {
+  "id": "t-git",
+  "kana": "ギット",
+  "en": "Git",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-github",
+  "kana": "ギットハブ",
+  "en": "GitHub",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-linux",
+  "kana": "リナックス",
+  "en": "Linux",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-redis",
+  "kana": "レディス",
+  "en": "Redis",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-postgresql",
+  "kana": "ポストグレスキューエル",
+  "en": "PostgreSQL",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-mongodb",
+  "kana": "モンゴディービー",
+  "en": "MongoDB",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-aws",
+  "kana": "エーダブリューエス",
+  "en": "AWS",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-api",
+  "kana": "エーピーアイ",
+  "en": "API",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-rest",
+  "kana": "レスト",
+  "en": "REST",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-graphql",
+  "kana": "グラフキューエル",
+  "en": "GraphQL",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-npm",
+  "kana": "エヌピーエム",
+  "en": "npm",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-framework",
+  "kana": "フレームワーク",
+  "en": "framework",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-library",
+  "kana": "ライブラリ",
+  "en": "library",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-open-source",
+  "kana": "オープンソース",
+  "en": "open source",
+  "subcategory": "Naming & tech names"
+ },
+ {
+  "id": "t-deploy",
+  "kana": "デプロイ",
+  "en": "deploy",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-ci-cd",
+  "kana": "シーアイシーディー",
+  "en": "CI/CD",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-container",
+  "kana": "コンテナ",
+  "en": "container",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-cloud",
+  "kana": "クラウド",
+  "en": "cloud",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-server",
+  "kana": "サーバー",
+  "en": "server",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-client",
+  "kana": "クライアント",
+  "en": "client",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-frontend",
+  "kana": "フロントエンド",
+  "en": "frontend",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-backend",
+  "kana": "バックエンド",
+  "en": "backend",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-full-stack",
+  "kana": "フルスタック",
+  "en": "full stack",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-network",
+  "kana": "ネットワーク",
+  "en": "network",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-protocol",
+  "kana": "プロトコル",
+  "en": "protocol",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-encryption",
+  "kanji": "暗号化",
+  "kana": "あんごうか",
+  "en": "encryption",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-decryption",
+  "kanji": "復号",
+  "kana": "ふくごう",
+  "en": "decryption",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-authentication",
+  "kanji": "認証",
+  "kana": "にんしょう",
+  "en": "authentication",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-authorization",
+  "kanji": "認可",
+  "kana": "にんか",
+  "en": "authorization",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-password",
+  "kana": "パスワード",
+  "en": "password",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-vulnerability",
+  "kanji": "脆弱性",
+  "kana": "ぜいじゃくせい",
+  "en": "vulnerability",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-firewall",
+  "kana": "ファイアウォール",
+  "en": "firewall",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-token-auth",
+  "kana": "トークン",
+  "en": "token (auth)",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-commit",
+  "kana": "コミット",
+  "en": "commit",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-branch",
+  "kana": "ブランチ",
+  "en": "branch",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-merge",
+  "kana": "マージ",
+  "en": "merge",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-pull-request",
+  "kana": "プルリクエスト",
+  "en": "pull request",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-code-review",
+  "kana": "コードレビュー",
+  "en": "code review",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-bug",
+  "kana": "バグ",
+  "en": "bug",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-debug",
+  "kana": "デバッグ",
+  "en": "debug",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-refactoring",
+  "kana": "リファクタリング",
+  "en": "refactoring",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-unit-test",
+  "kanji": "単体テスト",
+  "kana": "たんたいテスト",
+  "en": "unit test",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-requirements",
+  "kanji": "要件",
+  "kana": "ようけん",
+  "en": "requirements",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-specification",
+  "kanji": "仕様",
+  "kana": "しよう",
+  "en": "specification",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-release",
+  "kana": "リリース",
+  "en": "release",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-version",
+  "kana": "バージョン",
+  "en": "version",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-dependency",
+  "kanji": "依存関係",
+  "kana": "いぞんかんけい",
+  "en": "dependency",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-performance",
+  "kanji": "性能",
+  "kana": "せいのう",
+  "en": "performance",
+  "subcategory": "Dev / infra / security"
+ },
+ {
+  "id": "t-optimization",
+  "kanji": "最適化",
+  "kana": "さいてきか",
+  "en": "optimization",
+  "subcategory": "Dev / infra / security"
+ }
+]
